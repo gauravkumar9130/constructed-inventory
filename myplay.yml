@@ -1,0 +1,10 @@
+- name: creating a test playbook
+  hosts: all
+  become: true
+  tasks:
+  - name: Display Host Information
+    ansible.builtin.debug:
+      msg: 
+          - "I am running on: {{ inventory_hostname }}"
+          - "My Datacenter is: {{ datacenter }}"
+          - "My Groups are: {{ group_names }}"
