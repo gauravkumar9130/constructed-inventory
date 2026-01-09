@@ -1,0 +1,9 @@
+[web]
+servera datacenter=tokyo
+serverc datacenter=paris
+servere datacenter=london
+
+[db]
+serverb datacenter=tokyo
+serverd datacenter=paris
+serverf datacenter=london
